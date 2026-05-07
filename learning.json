@@ -1,0 +1,18 @@
+{
+    "discovery": {
+        "success": 0,
+        "fail": 0
+    },
+    "credential": {
+        "success": 0,
+        "fail": 0
+    },
+    "persistence": {
+        "success": 0,
+        "fail": 0
+    },
+    "lateral_movement": {
+        "success": 0,
+        "fail": 0
+    }
+}

@@ -1,0 +1,10 @@
+services:
+  caldera:
+    image: mitre/caldera:4.2.0
+    ports:
+      - "8001:8001"
+    volumes:
+      - ./caldera_data:/opt/caldera/data
+    environment:
+      - CALDERA__SERVER__HOST=0.0.0.0
+      - CALDERA__SERVER__PORT=8001
