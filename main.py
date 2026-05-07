@@ -6,7 +6,7 @@ import re
 # ============================================
 # CONFIG
 # ============================================
-HOST = "192.168.239.1"
+HOST = "your_ip"
 BASE_URL = f"http://{HOST}:8888/api/v2"
 
 HEADERS = {
@@ -14,7 +14,7 @@ HEADERS = {
     "Content-Type": "application/json"
 }
 
-OLLAMA_URL = "http://127.0.0.1:11434/api/generate"
+OLLAMA_URL = "http://127.0.0.1:your_port/api/generate"
 
 AGENT_ID = None
 ADVERSARIES = {}
@@ -30,7 +30,7 @@ LAST_ADVERSARY = None
 def banner():
     print("""
 ============================================================
-                    VAPT AUTOMATION
+                    KaalChakra
 ============================================================
         AI-Driven Red Team Simulation Engine
 ------------------------------------------------------------
